@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>CSS selectors and specificity</title>
+</head>
+<body>
+    <header>
+        <h1>CSS selectors and specificity</h1>
+    </header>
+    <main>
+        <h2>CSS selectors</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">SELECTOR</th>
+                    <th scope="col">MEANING</th>
+                    <th scope="col">EXAMPLE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>UNIVERSAL SELECTOR</td>
+                    <td>Applies to all the elements in the document</td>
+                    <td><span class="code">* {}</span> <br>Targets all the elements on the page</td>
+                </tr>
+                <tr>
+                    <td>TYPE SELECTOR</td>
+                    <td>Matches element names</td>
+                    <td><span class="code">h1, h2, h3 {}</span> <br>Targets all the elements h1, h2, h3</td>
+                </tr>
+                <tr>
+                    <td>CLASS SELECTOR</td>
+                    <td>Applies to all the elements that have a class with the same value as the one specified after the dot symbol</td>
+                    <td><span class="code">.code {}</span> <br>Targets the elements that has a class of code
+                    <br><span class="code">p.note {}</span> <br>Targets the paragraph elements whose class has a value of note</td>
+                </tr>
+                <tr>
+                    <td>ID SELECTOR</td>
+                    <td>Applies to all the elements that has an ID attribute with the same value as the one specified after the pound symbol</td>
+                    <td><span class="code">#computer {}</span> <br>Targets the elements that has an ID of computer</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

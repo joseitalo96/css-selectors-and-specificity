@@ -1,0 +1,30 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkcyan;
+}
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: gainsboro;
+}
+h2 {
+    text-align: center;
+    font-weight: 700;
+    color: honeydew;
+}
+table{
+    border:2px solid black;
+    width: 600px;
+    margin: 0 auto;
+}
+thead {
+    background-color: darkkhaki;
+}
+td {
+    border-top: 1px solid cornsilk;
+    border-left: 1px solid cornsilk;
+}
+.code {
+    font-family: monospace;
+    background-color: lemonchiffon;
+}
